@@ -1,0 +1,18 @@
+.page-header__logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.page-header__logo-accent {
+  color: var(--accent-text-color);
+  .page-header__logo:hover &,
+  .page-header__logo:focus & {
+    color: var(--primary-text-color);
+  }
+}
+.page-header__logo-no-accent {
+  color: var(--primary-text-color);
+  .page-header__logo:hover &,
+  .page-header__logo:focus & {
+    color: var(--accent-text-color);
+  }
+}

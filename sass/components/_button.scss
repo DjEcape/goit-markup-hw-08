@@ -1,0 +1,21 @@
+.btn {
+  font-family: inherit;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-color: transparent;
+  color: var(--primary-bg-color);
+  background-color: var(--accent-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  cursor: pointer;
+  padding: 10px 32px;
+  text-align: center;
+  height: 50px;
+  width: 200px;
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
+}

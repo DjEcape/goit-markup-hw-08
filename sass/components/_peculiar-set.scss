@@ -1,0 +1,30 @@
+.peculiar-set__list {
+  display: flex;
+  gap: 30px;
+}
+.peculiar-set__item {
+  width: 270px;
+}
+.peculiar-set__box {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-color: var(--portfolio-btn);
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.peculiar-set__title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.peculiar-set__description {
+  color: var(--description-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}

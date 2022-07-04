@@ -1,0 +1,44 @@
+.address__list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+  width: 231px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.address__geo {
+  color: var(--primary-bg-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-text-color);
+  }
+}
+
+// .address__geo:hover,
+// .address__geo:focus {
+//   color: var(--accent-text-color);
+// }
+.address__contact {
+  color: rgba(255, 255, 255, 0.6);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-text-color);
+  }
+}
+
+// .address__contact:hover,
+// .address__contact:focus {
+//   color: var(--accent-text-color);
+// }

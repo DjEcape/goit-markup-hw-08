@@ -1,0 +1,25 @@
+.revers-logo__box {
+  margin-bottom: 20px;
+}
+.revers-logo__text-accent {
+  color: var(--accent-text-color);
+  .revers-logo__link:hover &,
+  .revers-logo__link:focus & {
+    color: var(--primary-bg-color);
+  }
+}
+.revers-logo__text-no-accent {
+  color: var(--primary-bg-color);
+  .revers-logo__link:hover &,
+  .revers-logo__link:focus & {
+    color: var(--accent-text-color);
+  }
+}
+// .revers-logo__link:hover .revers-logo__text-accent,
+// .revers-logo__link:focus .revers-logo__text-accent {
+//   color: var(--primary-bg-color);
+// }
+// .revers-logo__link:hover .revers-logo__text-no-accent,
+// .revers-logo__link:focus .revers-logo__text-no-accent {
+//   color: var(--accent-text-color);
+// }

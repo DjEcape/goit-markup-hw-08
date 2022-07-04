@@ -1,0 +1,60 @@
+// variables
+@import "./utils/vars";
+
+// base styles
+@import "./base/base";
+@import "./base/reset";
+@import "./base/container";
+@import "./base/section";
+
+// components
+// header-components
+@import "./components/logo";
+@import "./components/header-logo";
+@import "./components/main-nav";
+@import "./components/header-contacts";
+
+// hero-components
+@import "./components/button";
+@import "./components/backdrop";
+@import "./components/modal";
+@import "./components/form";
+
+// peculiar components
+@import "./components/peculiar-set";
+
+// work
+@import "./components/work-list";
+
+// team components
+@import "./components/team-list";
+@import "./components/team-social-list";
+
+// cliets
+@import "./components/cliets-list";
+
+// footer logo
+@import "./components/footer-logo";
+
+// address
+@import "./components/address";
+
+// connection
+@import "./components/connection";
+
+// subscription
+@import "./components/subscription";
+
+// filter buttons
+@import "./components/filter";
+
+// layouts
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/peculiar";
+@import "./layouts/work";
+@import "./layouts/team";
+@import "./layouts/clients";
+@import "./layouts/footer";
+@import "./layouts/main-porfolio";
+@import "./layouts/gallery";
