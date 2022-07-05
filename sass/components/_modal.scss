@@ -11,7 +11,8 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 40px;
-  z-index: 9;
+  z-index: 98;
+  overflow: hidden;
   @media screen and (min-width: 1280px) {
     min-height: 581px;
     min-width: 528px;
@@ -38,6 +39,7 @@
   right: 8px;
   width: 30px;
   height: 30px;
+  z-index: 99;
   fill: #000000;
   background-color: var(--primary-bg-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -50,6 +52,7 @@
   width: 18px;
   height: 18px;
   fill: #000000;
+  z-index: 100;
   .modal__btn-close:hover &,
   .modal__btn-close:focus & {
     fill: var(--accent-text-color);

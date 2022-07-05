@@ -3,6 +3,9 @@ body {
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
   margin: 0;
+  &.no-scroll {
+    overflow: hidden;
+  }
 }
 .peculiar,
 .work,
