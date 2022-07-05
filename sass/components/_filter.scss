@@ -1,8 +1,17 @@
 .filter__list {
+  width: 450px;
   display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
   gap: 8px;
+  margin-bottom: 40px;
+  @media screen and (min-width: 760px) {
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+  }
 }
 .filter__btn {
   display: inline-block;

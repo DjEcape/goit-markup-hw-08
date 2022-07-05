@@ -4,11 +4,15 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  text-align: left;
+  // align-items: center;
+  // text-align: center;
   width: 231px;
   display: flex;
   flex-direction: column;
   gap: 9px;
+  @media screen and (min-width: 1280px) {
+    text-align: left;
+  }
 }
 
 .address__geo {

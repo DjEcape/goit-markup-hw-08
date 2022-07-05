@@ -20,6 +20,7 @@
 
   <body>
     <!--верхняя линия-->
+
     <header class="page-header">
       <div class="navigation container">
         <nav class="site-nav">
@@ -68,8 +69,10 @@
         </ul>
       </div>
     </header>
+
     <main>
       <!--hero-->
+
       <section class="hero__section section">
         <div class="container">
           <h1 class="hero__title">
@@ -197,7 +200,9 @@
           </div>
         </div>
       </section>
+
       <!--особенности-->
+
       <section class="peculiar section">
         <!--заголовок что бы спрятать-->
         <div class="container">
@@ -254,7 +259,9 @@
           </ul>
         </div>
       </section>
+
       <!--чем мы занимаемся-->
+
       <section class="work section">
         <div class="container">
           <h2 class="work__title title">Чем мы занимаемся</h2>
@@ -295,7 +302,9 @@
           </ul>
         </div>
       </section>
+
       <!--команда-->
+
       <section class="team section">
         <div class="container">
           <h2 class="team__title title">Наша команда</h2>
@@ -471,7 +480,9 @@
           </ul>
         </div>
       </section>
+
       <!-- cliets -->
+
       <section class="client section">
         <div class="container">
           <h2 class="client__title title">Постоянные клиенты</h2>
@@ -522,7 +533,9 @@
         </div>
       </section>
     </main>
+
     <!--подвал-->
+
     <footer class="footer">
       <div class="container footer__container-flex">
         <div class="footer__contacts">
@@ -633,21 +646,8 @@
         </div>
       </div>
     </footer>
-    <script>
-      (() => {
-        document
-          .querySelector(".js-speaker-form")
-          .addEventListener("submit", (e) => {
-            e.preventDefault();
 
-            new FormData(e.currentTarget).forEach((value, name) =>
-              console.log(`${name}: ${value}`)
-            );
-
-            e.currentTarget.reset();
-          });
-      })();
-    </script>
+    <script src="./js/form.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>

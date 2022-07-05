@@ -2,8 +2,11 @@
   display: flex;
   flex-direction: column;
   height: 342px;
-  width: 448px;
+  width: 370px;
   margin-bottom: 20px;
+  @media screen and (min-width: 1280px) {
+    width: 448px;
+  }
 }
 .form__title,
 .form__label-comment {
@@ -17,10 +20,9 @@
 }
 .form__label {
   text-align: left;
-  width: 448px;
 }
 .form__section input {
-  width: 100%;
+  width: 370px;
   height: 40px;
   margin-top: 4px;
   margin-bottom: 10px;
@@ -33,6 +35,9 @@
   &:hover,
   &:focus {
     border: 1px solid var(--accent-text-color);
+  }
+  @media screen and (min-width: 1280px) {
+    width: 448px;
   }
 }
 
@@ -78,29 +83,41 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
+  line-height: calc(16 / 14);
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+  @media screen and (min-width: 1280px) {
+    font-size: 12px;
+    line-height: calc(14 / 12);
+  }
 }
 
 .checkbox__section {
   display: block;
-  width: 448px;
-  padding-left: 12.5px;
-  padding-right: 12.5px;
+  width: 370px;
   padding-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 31px;
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 30px;
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+    width: 448px;
+  }
 }
 .checkbox__label {
   text-align: left;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
+  font-size: 12px;
+  line-height: calc(14 / 12);
   letter-spacing: 0.03em;
   color: #757575;
   display: flex;
   align-items: center;
+  @media screen and (min-width: 1280px) {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+  }
 }
 .checkbox__input {
   position: relative;
@@ -135,10 +152,16 @@
   background-origin: border-box;
 }
 .checkbox__link {
+  font-size: 12px;
+  line-height: calc(14 / 12);
   color: var(--accent-text-color);
   &:hover,
   &:focus {
     color: #188ce8;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 14px;
+    line-height: calc(24 / 14);
   }
 }
 .form__btn-submit {

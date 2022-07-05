@@ -1,5 +1,11 @@
 .connection {
   width: 206px;
+  margin-bottom: 60px;
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 0;
+    width: 206px;
+    margin-right: 93px;
+  }
 }
 .connection__title {
   font-weight: 700;
@@ -7,7 +13,10 @@
   line-height: 16px;
   text-transform: uppercase;
   color: var(--primary-bg-color);
-  margin-right: 93px;
+  text-align: center;
+  @media screen and (min-width: 1280px) {
+    text-align: left;
+  }
 }
 .connection__list {
   display: flex;
@@ -16,6 +25,7 @@
   width: 206px;
   padding-top: 20px;
   gap: 10px;
+  margin-right: 93px;
 }
 .connection__link {
   display: inline-flex;
@@ -38,7 +48,3 @@
   justify-content: center;
   fill: currentColor;
 }
-// .connection__link:hover,
-// .connection__link:focus {
-//   background-color: var(--accent-text-color);
-// }

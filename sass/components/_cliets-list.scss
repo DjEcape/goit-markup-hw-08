@@ -1,11 +1,13 @@
 .clients__list {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   gap: 30px;
 }
 
 .client__link {
   display: flex;
-  width: 170px;
+  width: 210px;
   height: 92px;
   border-radius: 4px;
   align-items: center;
@@ -16,5 +18,11 @@
   &:focus {
     fill: var(--accent-text-color);
     border: 1px solid var(--accent-text-color);
+  }
+  @media screen and (min-width: 768px) {
+    width: 226px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 170px;
   }
 }
