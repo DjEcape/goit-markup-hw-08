@@ -1,7 +1,7 @@
 .subscription {
   width: 100%;
 
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1200px) {
     width: 570px;
   }
 }
@@ -15,7 +15,7 @@
   text-align: center;
   margin-right: auto;
   margin-left: auto;
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1200px) {
     // margin-left: 0;
     text-align: left;
     margin: 0;
@@ -28,7 +28,7 @@
   align-items: center;
   margin-top: 20px;
   // margin-bottom: 20px;
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1200px) {
     flex-direction: row;
     align-items: left;
     width: 570px;
@@ -47,7 +47,7 @@
   @media screen and (min-width: 768px) {
     width: 450px;
   }
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1200px) {
     width: 358px;
     margin-right: 10px;
     margin-bottom: 0;
