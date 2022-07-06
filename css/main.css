@@ -1530,6 +1530,9 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .hero__section {
+    max-width: 1600px;
+    height: 600px;
+    padding: 200px 0 200px 0;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero/img_dt.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/img_dt.jpg);
   }
@@ -1538,13 +1541,6 @@ img {
   .hero__section {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero/img@2x_dt.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/img@2x_dt.jpg);
-  }
-}
-@media screen and (min-width: 1200px) {
-  .hero__section {
-    max-width: 1600px;
-    height: 600px;
-    padding: 200px 0 200px 0;
   }
 }
 
