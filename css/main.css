@@ -397,6 +397,7 @@ img {
 }
 @media screen and (min-width: 768px) {
   .header-contacts__list {
+    margin-right: 0;
     margin-bottom: 0;
     gap: 10px;
     -webkit-box-orient: vertical;
