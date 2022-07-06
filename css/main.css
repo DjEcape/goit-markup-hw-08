@@ -631,7 +631,7 @@ img {
   width: 370px;
   margin-bottom: 20px;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .form__section {
     width: 448px;
   }
@@ -667,7 +667,7 @@ img {
 .form__section input:hover, .form__section input:focus {
   border: 1px solid var(--accent-text-color);
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .form__section input {
     width: 448px;
   }
@@ -788,7 +788,7 @@ img {
   padding-top: 20px;
   margin-bottom: 31px;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .checkbox__section {
     margin-bottom: 30px;
     padding-left: 12.5px;
@@ -812,7 +812,7 @@ img {
       -ms-flex-align: center;
           align-items: center;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .checkbox__label {
     font-size: 14px;
     line-height: 1.7142857143;
@@ -861,7 +861,7 @@ img {
 .checkbox__link:hover, .checkbox__link:focus {
   color: #188ce8;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .checkbox__link {
     font-size: 14px;
     line-height: 1.7142857143;
@@ -1238,11 +1238,9 @@ img {
   width: 206px;
   margin-bottom: 60px;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .connection {
     margin-bottom: 0;
-    width: 206px;
-    margin-right: 93px;
   }
 }
 
@@ -1254,7 +1252,7 @@ img {
   color: var(--primary-bg-color);
   text-align: center;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .connection__title {
     text-align: left;
   }
@@ -1637,17 +1635,6 @@ footer {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .footer__container-flex {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
   }
 }
 

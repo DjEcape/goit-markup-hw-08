@@ -1,10 +1,9 @@
 .connection {
   width: 206px;
   margin-bottom: 60px;
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1200px) {
     margin-bottom: 0;
-    width: 206px;
-    margin-right: 93px;
+    // margin-right: 93px;
   }
 }
 .connection__title {
@@ -14,7 +13,7 @@
   text-transform: uppercase;
   color: var(--primary-bg-color);
   text-align: center;
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1200px) {
     text-align: left;
   }
 }

@@ -13,12 +13,12 @@ footer {
     align-items: flex-start;
     justify-content: space-evenly;
   }
-  @media screen and (min-width: 1200px) {
-    // align-items: flex-start;
-    // flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-  }
+  // @media screen and (min-width: 1200px) {
+  //   align-items: flex-start;
+  //   flex-wrap: wrap;
+  //   flex-direction: row;
+  //   justify-content: space-between;
+  // }
 }
 .footer__contacts {
   width: 232px;
