@@ -259,6 +259,9 @@ img {
   height: 40px;
   fill: #212121;
 }
+.menu__btns:hover, .menu__btns:focus {
+  fill: var(--accent-text-color);
+}
 @media screen and (min-width: 768px) {
   .menu__btns {
     display: none;
@@ -267,7 +270,7 @@ img {
 
 .menu__icon-open {
   opacity: 1;
-  fill: #212121;
+  fill: inherit;
 }
 .menu__btns.is-open .menu__icon-open {
   opacity: 0;
@@ -278,15 +281,11 @@ img {
 }
 .menu__btns.is-open .menu__icon-close {
   opacity: 1;
-  fill: #212121;
+  fill: inherit;
 }
 
-.menu__icons {
-  width: 24px;
-  height: 16px;
-}
 .menu__btns:hover .menu__icons, .menu__btns:focus .menu__icons {
-  fill: var(--accent-text-color);
+  fill: inherit;
 }
 
 .page-header__logo {
@@ -440,6 +439,7 @@ img {
 }
 
 .header-contacts__link {
+  display: block;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1714,16 +1714,9 @@ footer {
 }
 
 .portfolio__link {
-  width: 450px;
   height: 100%;
   display: inline-block;
   text-decoration: none;
-  width: 354px;
-}
-@media screen and (min-width: 1200px) {
-  .portfolio__link {
-    width: 370px;
-  }
 }
 
 .portfolio__link:hover .portfolio__overlay, .portfolio__link:focus .portfolio__overlay {
@@ -1733,42 +1726,20 @@ footer {
 }
 
 .portfolio__thumb {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 450px;
   position: relative;
   overflow: hidden;
   margin: 0;
-  width: 354px;
-}
-@media screen and (min-width: 1200px) {
-  .portfolio__thumb {
-    width: 370px;
-  }
-}
-
-.portfolio__img {
-  display: block;
-  width: 450px;
-  height: 100%;
 }
 
 .portfolio__overlay {
   position: absolute;
   top: 0;
   left: 0;
-  width: 450px;
+  height: 294px;
   background-color: rgba(33, 150, 243, 0.9);
   opacity: 1;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
-  width: 354px;
-}
-@media screen and (min-width: 1200px) {
-  .portfolio__overlay {
-    width: 370px;
-  }
 }
 
 .portfolio__thumb-description {
@@ -1788,7 +1759,6 @@ footer {
 
 .portfolio__border {
   background: #ffffff;
-  width: 450px;
   height: 110px;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
@@ -1805,12 +1775,10 @@ footer {
       -ms-flex-positive: 1;
           flex-grow: 1;
   height: 146px;
-  width: 354px;
 }
 @media screen and (min-width: 1200px) {
   .portfolio__border {
     height: 110px;
-    width: 370px;
   }
 }
 
