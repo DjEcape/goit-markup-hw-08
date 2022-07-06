@@ -14,9 +14,10 @@ footer {
     justify-content: space-evenly;
   }
   @media screen and (min-width: 1200px) {
-    align-items: flex-start;
-    flex-wrap: wrap;
+    // align-items: flex-start;
+    // flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-between;
   }
 }
 .footer__contacts {

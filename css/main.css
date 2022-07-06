@@ -98,6 +98,7 @@ img {
   margin-right: auto;
   padding-right: 15px;
   padding-left: 15px;
+  position: relative;
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -138,7 +139,7 @@ img {
 .mobile-menu__container {
   position: fixed;
   min-width: 450px;
-  min-height: 796px;
+  max-height: 100%;
   outline: 2px solid green;
   padding: 48px 40px;
   background-color: #ffffff;
@@ -1315,6 +1316,7 @@ img {
 @media screen and (min-width: 1200px) {
   .subscription {
     width: 570px;
+    margin-left: 93px;
   }
 }
 
@@ -1433,6 +1435,11 @@ img {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .filter__list {
     margin-bottom: 50px;
   }
 }
@@ -1473,7 +1480,6 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   border-bottom: 1px solid #ececec;
-  position: relative;
 }
 
 .navigation {
@@ -1635,15 +1641,13 @@ footer {
 }
 @media screen and (min-width: 1200px) {
   .footer__container-flex {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
