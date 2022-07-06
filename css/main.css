@@ -406,7 +406,7 @@ img {
     margin-left: auto;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .header-contacts__list {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
